@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: neil-app
-          image: strm/helloworld-http:latest
+          image: wordpress:latest
           ports:
             - containerPort: 8080
