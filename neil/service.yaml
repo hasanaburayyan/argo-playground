@@ -6,6 +6,6 @@ spec:
   selector:
     app: neil-svc
   ports:
-    - port: 8089
+    - port: 80
       protocol: TCP
-      targetPort: 80
+      targetPort: 8089
