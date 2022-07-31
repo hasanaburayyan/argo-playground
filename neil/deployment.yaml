@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: neil-deployment
+spec:
+  selector:
+    matchLabels:
+      app: neil-app
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: neil-app
+    spec:
+      containers:
+        - name: neil-app
+          image: strm/helloworld-http:latest
+          ports:
+            - containerPort: 80
