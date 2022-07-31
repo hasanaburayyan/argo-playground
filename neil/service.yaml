@@ -4,7 +4,7 @@ metadata:
   name: neil-service
 spec:
   selector:
-    app: neil-app
+    app: neil-svc
   ports:
     - port: 80
       protocol: TCP
