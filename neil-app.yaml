@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: neil-app
-  namespace: neil
+  namespace: argocd
 spec:
   project: default
 
